@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Hex {
     private static final char[] HEX_CHARS = "0123456789abcdef".toCharArray();
-
+//test
     public static String encode(String input) {
         var buf = input.getBytes(StandardCharsets.UTF_8);
         System.out.println(Arrays.toString(buf));
