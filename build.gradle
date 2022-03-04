@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.javalin:javalin:4.3.0'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.8.0-beta4'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 }
