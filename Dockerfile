@@ -1,4 +1,4 @@
 FROM openjdk:11-slim
-COPY build/libs/TheApp-1.0-SNAPSHOT.jar /home/
+COPY build/libs/MP23-1.0-SNAPSHOT.jar /home/
 WORKDIR /home
-CMD ["java","-jar","TheApp-1.0-SNAPSHOT.jar"]
+CMD ["java","-jar","MP23-1.0-SNAPSHOT.jar"]
