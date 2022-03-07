@@ -15,6 +15,5 @@ class ServerTest {
         var request = HttpRequest.newBuilder(URI.create("http://localhost:8888")).build();
         var response = client.send(request, BodyHandlers.ofString());
         Assertions.assertEquals(200, response.statusCode());
-        Assertions.assertEquals("Hello from HAI MP23", response.body());
     }
 }
